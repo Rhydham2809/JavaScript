@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+
+        //1. WRITE A PROGRAM TO CONCAT 2 STRING
+            // var s1 = prompt("Please enter string1");
+            // var s2 = prompt("Please enter string2");
+            // var concat = document.write((s1+s2));
+                                // OR
+            // document.write((s1+s2));
+
+
+
+
+        // 2.WRITE A PROGRAM TO DEMOSTRATE USE OF STRING FUNCTION
+                // var s = prompt("ENTER A STRING");
+                // document.write("LENGHTOF STRING = "+s.length+"<b>");
+
+                // var i = prompt("ENTER THE STRING INITIAL INDEX:");
+                // var j = prompt("ENTER THE STRING LAST INDEX:");
+                // document.write("SUBSTRING = "+s.substring(i,j)+"<b>");
+
+                // var i = prompt("ENTER THE STRING INITIAL INDEX:");
+                // var j = prompt("ENTER THE STRING LAST INDEX:");
+                // document.write("Substr = "+s.substr(i,j)+"<b>");
+               
+                // var j = prompt("Enter the index, i will give you character");
+                // document.write("charAt = "+s.charAt(j));
+
+                // document.write("toUpperCase = "+s.toUpperCase()); 
+
+                // document.write("toLowerCase = "+s.toLowerCase());
+                   
+                // var w = prompt("ENTER WhAT YOU WANT TO REPLACE IN STRING");
+                // var r = prompt("ENTER A REPLACEMENT STRING");
+                // document.write("Replace = "+s.replace(w,r));
+
+                // var c = prompt("Enter concat string");
+                // document.write("Concat = "+s.concat(c));
+               
+                // document.write("Trim = "+s.trim());
+
+                // var e = prompt("Enter character you want to check at end of string");
+                // document.write("endsWith = "+s.endsWith(e))
+
+                // var e = prompt("Enter character you want to check in string");
+                // document.write("Includes = "+s.includes(e));
+
+                // var n = prompt("Enter character i will give you index");
+                // document.write("IndexOf = "+s.indexOf(n));
+
+
+                // var n = parseInt(prompt("Enter the times you want to repeat"));
+                // document.write("Repeat = "+s.repeat(n));
+
+                // document.write("Split = "+s.split('-'));
+
+                // var n = prompt("Start with ");
+                // document.write("Start with = "+s.startsWith(n));
+
+
+
+
+                
+        // 3.WRITE A PROGRAM TO TAKE 2 DIGIT NUMBER AND THEN SEPERATE THIS 2 DIGITS AND MULTIPLY 1ST DIGIT BY ITSELF FOR 2ND DIGIT TIMES
+                // var n1 = parseInt(prompt("Enter a number"));
+                // var r=parseInt(n1%10);
+                // n1 = parseInt(n1/10);
+                // document.write(Math.pow(n1,r));
+
+
+
+
+
+        // 4.WRITE A PROGRAM IN JS THAT USES A LOOP THAT SEARCHES A WORD IN SENTENCE HELD IN AN ARRAY, RETURNING THE INDEX OF WORD
+        // SOLUTION-1 (WHERE ONE WHOLE WORD IS STORED AS ONE ELEMENT)
+
+                    // var s = prompt("Enter the sentence");
+                    // var n = new Array();
+                    // n=s.split(' ');
+                    // document.write("YOUR SENTENCE: "+s+"<br>");
+                    // var w = prompt("Please enter the word you want to find idex of");
+                    // for(i=0;i<n.length;i++)
+                    // {
+                    //     if(w===n[i])
+                    //     {
+                    //         document.write("The index of "+w+" is "+i);
+                    //     }
+                    // }
+                                        // OR
+                    // document.write("The index of "+w+" is "+n.indexOf(w));
+        
+
+        // SOLUTION-2(WHERE IN ARRAY IT IS STORED AS CHARACTERS)
+                    // word=prompt("Enter word : ");
+                    // str="Hello From Darshan University"
+                    // index=n=str.indexOf(word);
+                    // document.write("Index of "+word+" is : "+index);
+
+
+
+
+        // 5.WRITE HTML FILE WITH JS THAT FINDS POSITION OF 1ST OCCURANCE OF VOWEL "a" AND LAST OCCURENCE OF VOWEL "a" AND PRINT THE STRING BETWEEN THEM
+                    
+                    // var n = prompt("Enter a string");
+                    // document.write( n.substring(n.indexOf("a")+1,n.lastIndexOf("a")));
+
+
+
+
+        //    6.WRITE A PROGRAM TO CREATE AN ARRAY OF COUNTRIES, READ THE VALUES OF AN ARRAY FROM THE USERS AND PRINT IT     
+
+                    // var n = parseInt(prompt("Please enter array size"));
+                    // var arr = new Array(); 
+                    // var i=0;
+                    // for(i=0;i<n;i++)
+                    // {
+                    //     arr[i] = prompt("Element "+(i+1));
+                    // }
+                    // for(i=0;i<n;i++)
+                    // {
+                    //     document.write(arr[i]+<br>");
+                    // }
+
+
+
+
+        // 7.WRITE A PROGRAM TO PRINT ARRAY IN AN ASCENDING ORDER, GIVEN BY USER
+
+                    //     var n = parseInt(prompt("Please enter array size"));
+                    //     var a = new Array();
+                    //     for(i=0;i<n;i++)
+                    //     {
+                    //         a[i]=prompt("Please enter number "+(i+1));
+                    //     }
+                    //     document.write("ORIGINAL ARRAY: "+"<br>");
+                    //     document.write(a);
+                    //     document.write("<br>");
+                    //     document.write("SORTED ARRAY: "+"<br>");
+                    //    document.write(a.sort());
+
+                        
+
+
+
+          // 8.DEMONSTRATE USER DEFINED FUNCTIONS USING JS TO FIND WHETHER THE GIVEN NUMBER IS PRIME OR NOT
+
+                        // var n = parseInt(prompt("Please enter a number: "));
+                        // function prime_number(n)
+                        // {
+                        //     var count=0;
+                        //     for(i=2;i<=n/2;i++)
+                        //     {
+                        //         if(n%i==0)
+                        //         {
+                        //             count++;
+                        //             break;
+                        //         }
+                        //     }
+                        //     if(count>0)
+                        //     {
+                        //         document.write("Its not a prime number");
+                                
+                        //     }
+                        //     else
+                        //     {
+                        //         document.write("Its a prime number");
+                        //     }
+                        // }
+
+                        // prime_number(n);
+
+
+
+
+
+        //    9.DEMONSTRATE THE USE OF ARRAY TO FIND THE MAX NUMBER
+
+                        // var n = parseInt(prompt("Please enter array size"));
+                        // var a = new Array();
+                        // var max=0;
+                        // for(i=0;i<n;i++)
+                        // {
+                        //     a[i]=prompt("Please enter number "+(i+1));
+                        //     document.write(a[i]+" ");
+                        //     if(max<a[i])
+                        //     {
+                        //         max = a[i];
+                        //     }
+                        // }
+                        // document.write("<br>"+"MAXIMUM NUMBER IS :"+max);
+
+
+
+
+        //    10.WRITE A PROGRAM TO DEMONSTRATE THE USE OF VARIOUS INBUILT FUNCTIONS ON AN ARRAY LIKE PUSH,PULL,SORT
+             
+                        // PUSH - ADDS A NUMBER FROM LAST INDEX
+                        //  var n = [1,2,3,4,5,6,0,34,56,90];
+                        //  n.push(7,8,9);
+                        //  document.write(n);
+
+                        // POP - DELETES AN ELEMENT FROM LAST INDEX
+                        //  n.pop(6);
+                        //  document.write(n);
+
+                        // SORT - ARRANGES AN ARRAY IN ASCENDING ORDER
+                        // document.write(n.sort());
+
+                        // SHIFT- OPPOSITE OF PULL,REMOVES FIRST ELEMENT OF ARRAY
+                        // var x = n.shift();
+                        // document.write(x+"<br>"+n);
+
+
+
+
+    </script>
+</body>
+</html>

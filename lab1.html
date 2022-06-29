@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator and pattern</title>
+</head>
+<body>
+    <script>
+
+
+
+
+        // WRITE A PROGRAM TO BUILT A BASIC CALCULATOR
+        // var num1 = parseInt(prompt("Please enter number 1:"));
+        // var num2 = parseInt(prompt("Please enter number 2:"));
+        // var op = prompt("Please enter the operator");
+        // if(op=="ADD")
+        // {
+        //     document.write("The answer for addition is:  "+(num1+num2));
+        // }
+        // else if(op=="SUB")
+        // {
+        //     document.write("The answer for SUB is:  "+(num1-num2));
+        // }
+        // else if(op=="MULTI")
+        // {
+        //     document.write("The answer for MUTLI is:  "+(num1*num2));
+        // }
+        // else if(op=="DIV")
+        // {
+        //     if(num2>0)
+        //     {
+        //         document.write("The answer for DIVISION is:  "+(num1/num2));
+        //     }
+        //     else
+        //     {
+        //         alert("Please enter non zero value of num2");
+        //     }
+        // }
+
+
+
+
+        // PATTERNS
+
+        // var n = parseInt(prompt("Please enter last number:"));
+        // var i=1,j=1;
+
+
+        //1. WRITE A PROGRAM TO PRINT A SOLID SQUARE
+            // for(i=1;i<=n;i++)
+            // {
+            //     for(j=1;j<=n;j++)
+            //     {
+            //         document.write("* ");
+            //     }
+            //     document.write("<br>");
+            // }
+
+
+
+
+
+            // 2.  WRITE A PROGRAM TO PRINT A HOLLOW SQUARE
+            // for(i=1;i<=n;i++)
+            // {
+            //     for(j=1;j<=n;j++)
+            //     {
+            //         if(i==1||j==1||i==n||j==n)
+            //         {
+            //             document.write("* ");
+            //         }
+            //         else
+            //         {
+            //             document.write("&nbsp"+"&nbsp"+"&nbsp");
+            //         }
+            //     }
+            //     document.write("<br>");
+            // }
+
+
+
+
+
+            //3. WRITE A PROGRAM TO PRINT A SOLID Triangle
+            // for(i=1;i<=n;i++)
+            // {
+            //     for(j=n;j>=i;j--)
+            //     {
+            //         document.write("&nbsp"+"&nbsp");
+            //     }
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         document.write("*         ");
+            //     }
+            //     document.write("<br>");
+            // }
+
+
+
+
+
+            // 4. WRITE A PROGRAM TO PRINT A HOLLOW TRINAGLE
+            //     for(i=1;i<=n;i++)
+            // {
+            //     for(j=n;j>=i;j--)
+            //     {
+            //         document.write("&nbsp");
+            //     }
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         if(j==1||i==1||j==i||i==n)
+            //         {
+            //             document.write("*");
+            //         }
+            //         else
+            //         {
+            //             document.write("&nbsp"+"&nbsp");
+            //         }  
+            //     }
+            //     document.write("<br>");
+            // }
+
+
+
+
+            // 5. WRITE A PROGRAM TO PRINT THE SOLID DIAMOND
+            // for(i=1;i<=(n/2);i++)
+            // {
+            //     for(j=(n/2);j>i;j--)
+            //     {
+            //         document.write("&nbsp"+"&nbsp");
+            //     }
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         document.write("*        ");
+            //     }
+            //     document.write("<br>");
+            // }
+            // for(i=1;i<=(n/2);i++)
+            // {
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         document.write("&nbsp"+"&nbsp");
+            //     }
+            //     for(j=(n/2)-1;j>=i;j--)
+            //     {
+            //         document.write("*       ");
+            //     }
+            //     document.write("<br>");
+            // }
+
+
+
+
+
+            //6.  WRITE A PROGRAM TO PRINT A HOLLOW DIAMOND
+            // for(i=1;i<=n/2;i++)
+            // {
+            //     for(j=n/2;j>=i;j--)
+            //     {
+            //         document.write("&nbsp"+"&nbsp");
+            //     }
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         if(i==1||j==i||j==1)
+            //         {
+            //             document.write("*          ");
+            //         }
+            //         else
+            //         {
+            //             document.write("&nbsp"+"&nbsp"+"&nbsp");
+            //         }
+            //     }
+            //     document.write("<br>");
+            // }
+            // for(i=1;i<=n/2;i++)
+            // {
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         document.write("&nbsp"+"&nbsp");
+            //     }
+            //     for(j=(n/2)-1;j>=i;j--)
+            //     {
+            //         if(j==i||j==(n/2)-1||i==(n/2))
+            //         {
+            //             document.write("                *");
+            //         }
+            //         else
+            //         {
+            //             document.write("&nbsp"+"&nbsp"+"&nbsp");
+            //         }   
+            //     }
+            //     document.write("<br>");
+            // }
+
+
+
+
+
+            // 7. WRITE A PROGRAM TO PRINT A SOLID DIFFERENT TRIANGLE PATTERN
+            // for(i=1;i<=n;i++)
+            // {
+            //     for(j=n;j>=i;j--)
+            //     {
+            //         document.write("&nbsp"+"&nbsp");
+            //     }
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         document.write("*");
+            //     }
+            //     document.write("<br>");
+            // }
+
+
+
+
+
+            // 8. WRITE A PROGRAM TO PRINT A DIFFERENT HOLLOW TRIANGLE PATTERN
+            // for(i=1;i<=n;i++)
+            // {
+            //     for(j=n;j>=i;j--)
+            //     {
+            //         document.write("&nbsp"+"&nbsp");
+            //     }
+            //     for(j=1;j<=i;j++)
+            //     {
+            //         if(i==1||j==i||i==n||j==1)
+            //         {
+            //             document.write("*");
+            //         }
+            //         else
+            //         {
+            //             document.write("&nbsp"+"&nbsp");
+            //         }
+            //     }
+            //     document.write("<br>");
+            // }
+            
+    </script>
+</body>
+</html>

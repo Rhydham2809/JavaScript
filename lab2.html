@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs</title>
+</head>
+<body>
+    <script>
+
+
+
+
+        // 1. WRITE A PROGRAM TO FIND THE FACTORS OF THE GIVEN NUMBER
+        // var n = parseInt(prompt("Please enter a number:"));
+        // var i=1;
+        // for(i=1;i<=n;i++)
+        // {
+        //     if(n%i==0)
+        //     {
+        //         document.write(i+" ");
+        //     }
+        // }
+
+
+
+
+
+        // 2. WRITE A PROGRAM TO CHECK WHETHER THE NUMBER IS PRIME OR NON PRIME
+        // var count = 0;
+        // for(i=2;i<=n/2;i++)
+        // {
+        //     if(n%i==0)
+        //     {
+        //         break;
+        //     }
+        //     else
+        //     {
+        //         count++;
+        //     }
+        // }
+        // if(count==0)
+        // {
+        //     document.write("NOT A  PRIME NUMBER");
+        // }
+        // else
+        // {
+        //     document.write("PRIME NUMBER");
+        // }
+
+
+
+
+
+        // 3. WRITE A PROGRAM TO FIND PRIME NUMBER BETWEEN BETWEEN 2 NUMBERS
+        // var a = parseInt(prompt("Enter lower limit"));
+        // var b = parseInt(prompt("Enter upper limit"));
+        // var a1= a+1;
+        // var b1 =b-1;
+        // var count=0;
+        // for(i=a1;i<=b1;i++)
+        // {
+        //     count=0;
+        //     for(j=2;j<=i/2;j++)
+        //     {
+        //         if(i%j==0)
+        //         {
+        //             count++;
+        //             break;
+        //         }
+        //     }    
+        //     if(count==0)
+        //     {
+        //         document.write(i+", ");
+        //     }          
+        // }
+
+
+
+
+
+        // WRITE A PROGRAM TO PRINT THE FACTORIAL OF A GIVEN NUMBER
+        // var n = parseInt(prompt("Please enter a number"));
+        // var product = 1;
+        // for(i=1;i<=n;i++)
+        // {
+        //     product = i*product;
+        // }
+        // document.write(product);
+
+
+
+
+
+        // 4. WRITE A PROGRAM TO CHECK WHETHER THE NUMBER IS A ARMSTRONG NUMBER OR NOT
+        // SOLUTION 1 (TAKING N AS INT)
+        // var n = parseInt(prompt("Please enter a number:"));
+        // var temp=n;
+        // temp2 = n;
+        // var digit=0;
+        // var r=0;
+        // var sum=0;
+        // var p=0;
+        // for(;n>0;)
+        // {
+        //     r=n%10;
+        //     n=parseInt(n/10);
+        //     digit++;
+        // }
+        // for(;temp>0;)
+        // {
+        //     r=temp%10;
+        //     temp = parseInt(temp/10);
+        //     p=Math.pow(r,digit);
+        //     sum=sum+p;
+        // }
+        // if(temp2==sum)
+        // {
+        //     document.write("Yes it is an Armstrong number");
+        // }
+        // else 
+        // {
+        //     document.write("No it is not an Armstrong number");
+        // }
+        
+        // SOLUTION2 (TAKING N AS STRING)
+            // var p=0,r=0;
+            // var sum=0;
+            // var n = prompt("Please enter a number");
+            // var digit = n.length;
+            // var n1= parseInt(n);
+            // var n2 = n1;
+            // for(;n1>0;)
+            // {
+            //     r=n1%10;
+            //     p = Math.pow(r,digit);
+            //     sum = sum + p;
+            //     n1 = parseInt(n1/10);
+            // }
+            
+            // if(sum==n2)
+            // {
+            // document.write("Yes it is an Armstrong number");
+            // }
+            // else 
+            // {
+            //     document.write("No it is not an Armstrong number");
+            // }
+
+
+
+
+            //5.  WRITE A PROGRAM TO FIND THE GREATEST COMMON DIVISOR FOR THE GIVEN 2 NUMBERS
+            // var n1 = parseInt(prompt("Please enter number1"));
+            // var n2 = parseInt(prompt("Please enter number2"));
+            // var num1 = [];
+            // var num2 = [];
+            // var i,j=0;
+            // for(i=1;i<=n1;i++)
+            // {
+            //     if(n1%i==0)
+            //     {
+            //         num1[j] = i;
+            //         j++;
+            //     }
+            // }
+            // for(i=1;i<=n2;i++)
+            // {
+            //     if(n2%i==0)
+            //     {
+            //         num2[j] = i;
+            //         j++;
+            //     }
+            // }
+            // var l1 = num1.length;
+            // var l2 = num2.length;
+            // var max=1;
+            // var answer;
+            // for(i=0;i<l1;i++)
+            // {
+            //     for(j=0;j<l2;j++)
+            //     {
+            //         if(num1[i]==num2[j])
+            //         {
+            //             if(max<=num1[i])
+            //             {
+            //                 max = num1[i];
+            //             }
+            //         }
+            //     }
+            // }
+            // document.write("The greatest common divisor of"+" "+n1+" "+"and"+" "+n2+" "+"is"+" "+max);
+
+
+
+
+
+            //6.  WRITE A PROGRAM TO CHECK WHETHER THE NUMBER IS A PALINDROME NUMBER OR NOT
+            // var n = parseInt(prompt("Please enter a number"));
+            // var n1 = n;
+            // var r=0;
+            // var new_number = 0;
+            // for(;n>0;)
+            // {
+            //     r=n%10;
+            //     new_number = r + new_number*10;
+            //     n = parseInt(n/10);
+            // }
+
+            // if(n1==new_number)
+            // {
+            //     document.write("Yes, a palindrome number");
+            // }
+            // else
+            // {
+            //     document.write("NO, a palindrome number");
+            // }
+
+
+
+
+
+        //    7. WRITE A PROGRAM TO PRINT FIBONACCI SEQUENCE FOR N GIVEN NUMBERS
+            // var n = parseInt(prompt("Enter lower limit"));
+            // var l=1,f=0,sum=0,i;
+            // for(i=0;i<n;i++)
+            // {
+            //        if(i==1 || i==0)
+                //        {
+                //         document.write(i+" ");
+                //        }
+            //        else 
+                //        {
+                //         sum = f + l;
+                //         document.write(sum+" ");
+                //         f=l;
+                //         l=sum;
+                //        }   
+            // }
+    </script>
+</body>
+</html>
